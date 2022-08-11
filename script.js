@@ -10,7 +10,7 @@ const repository = [];
 function cleanAll() {
   repository.length = 0;
   const ul = document.getElementById("list-repo-gb");
-  // ul && sectionListRepo.removeChild(ul);
+ 
   if (ul) {
     sectionListRepo.removeChild(ul);
   }
